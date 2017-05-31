@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_elevator_door_0"
+        android:layout_width="@dimen/elevator_door"
+        android:layout_height="@dimen/elevator_door"
+        android:background="@android:color/background_dark"
+        android:layout_margin="@dimen/space"/>
+
+    <ImageView
+        android:id="@+id/image_elevator_door_1"
+        android:layout_width="@dimen/elevator_door"
+        android:layout_height="@dimen/elevator_door"
+        android:layout_toEndOf="@+id/image_elevator_door_0"
+        android:background="@android:color/background_dark"
+        android:layout_margin="@dimen/space"/>
+
+    <ImageView
+        android:id="@+id/image_elevator_door_2"
+        android:layout_width="@dimen/elevator_door"
+        android:layout_height="@dimen/elevator_door"
+        android:background="@android:color/background_dark"
+        android:layout_margin="@dimen/space"
+        android:layout_toStartOf="@+id/image_elevator_door_3" />
+
+    <ImageView
+        android:id="@+id/image_elevator_door_3"
+        android:layout_width="@dimen/elevator_door"
+        android:layout_height="@dimen/elevator_door"
+        android:background="@android:color/background_dark"
+        android:layout_margin="@dimen/space"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button_select_floor"
+        android:text="@string/select_floor"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/elevator_door"
+        android:padding="@dimen/space"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginRight="@dimen/space"
+        android:layout_marginTop="@dimen/space"
+        android:layout_marginBottom="@dimen/space"
+        android:layout_toStartOf="@+id/image_elevator_door_2"
+        android:layout_toEndOf="@id/image_elevator_door_1"/>
+
+</RelativeLayout>

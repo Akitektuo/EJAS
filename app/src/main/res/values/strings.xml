@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">E.J.A.S Prototype</string>
+    <string name="app_version">E.J.A.S.A.B.2.2.29.11.2016</string>
+    <string name="test">Test</string>
+    <string name="automatic">Automatic</string>
+    <string name="manual">Manual</string>
+    <string name="description_auto">Pressing the button will start a simulation.</string>
+    <string name="description_man">Selecting one of the buttons, you will be able to make commands.</string>
+    <string name="select_floor">Select\nFloor: %1$d</string>
+    <string name="status">Status: %1$s</string>
+    <string name="status_stop">Status: Stop</string>
+    <string name="boarding">Boarding&#8230;</string>
+    <string name="current_floor">Current Floor - %1$d</string>
+    <string name="next_floor">%1$d</string>
+    <string name="moving">Moving&#8230;</string>
+    <string name="elevator0">Elevator 0:</string>
+    <string name="elevator1">Elevator 1:</string>
+    <string name="elevator2">Elevator 2:</string>
+    <string name="elevator3">Elevator 3:</string>
+    <string name="stop">Stop</string>
+    <string name="status_general">Status</string>
+    <string name="select_next_floor">Where do you want to go?</string>
+    <string name="x">X</string>
+    <string name="ten">10</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="zero">0</string>
+    <string name="floor_number">This is floor %1$d</string>
+</resources>
